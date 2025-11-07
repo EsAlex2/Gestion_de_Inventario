@@ -75,8 +75,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <div class="image-box-about">
-                        <img src="/sistema/views/images/about-us.jpg" alt="Acerca de Nosotros" class="img-fluid"
-                            style="border-radius: 10px;">
+                        <img src="./views/about-us.jpg" alt="Acerca de Nosotros" class="img-fluid">
                     </div>
                 </div>
             </div>
