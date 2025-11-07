@@ -22,13 +22,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#about">Acerca de</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
     <!--fin del banner de bienvenida-->
 
     <!--Acerca de Nosotros-->
-    <section class="about-us" style="margin-bottom: 80px;">
+    <section id="about" class="about-us" style="margin-bottom: 80px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
@@ -111,13 +111,36 @@
                             <a href="#">¿Olvidaste tu contraseña?</a>
                             <a href="#" style="float: right;">¿No tienes una cuenta? Regístrate</a>
                         </div>
-                        <div class="mt-3" style="text-align: center; padding-top: 20px;">
+                        <div class="mt-3" style="text-align: center; padding-top: 45px; padding-bottom: 10px;">
                             <button type="submit" class="btn btn-outline-primary">Iniciar Sesión</button>
                         </div>
                     </form>
-                    <div>
-                        
+                </div>
+                <div class="col-md-6 col-lg-6" style="border-radius: 5px;">
+                    <div class="login-form">
+                        <div class="mb-3">
+                            <h3 id="login-title">Servicios</h3>
+                        </div>
+                        <div class="mb-3">
+                            <p id="services"><ion-icon name="checkmark-circle-sharp"></ion-icon> Gestión de Inventario
+                                Automatizada</p>
+                            <p id="services"><ion-icon name="podium"></ion-icon> Informes y Análisis en Tiempo Real</p>
+                            <p id="services"><ion-icon name="server"></ion-icon> Integración con Sistemas Existentes</p>
+                            <p id="services"><ion-icon name="key"></ion-icon> Soporte Técnico 24/7</p>
+                            <p id="services"><ion-icon name="flash"></ion-icon> Mantenimiento Preventivo y Correctivo
+                            </p>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin del formulario de login-->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                
                 </div>
             </div>
         </div>
