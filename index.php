@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="/sistema/views/styles.css">
+    <link rel="stylesheet" href="./views/styles.css">
     <title>Gestion de Inventario</title>
 </head>
 
@@ -34,7 +34,7 @@
             </div>
             <div class="d-flex">
                 <a class="btn btn-outline-light" style="margin-right: 10px;" href="#" role="button">Registrarse</a>
-                <a class="btn btn-outline-light" href="#" role="button">Iniciar Sesion</a>
+                <a class="btn btn-outline-light" href="#login-title" role="button">Iniciar Sesion</a>
             </div>
         </div>
     </nav>
@@ -57,7 +57,7 @@
     <!--fin del banner de bienvenida-->
 
     <!--Acerca de Nosotros-->
-    <section class="about-us">
+    <section class="about-us" style="margin-bottom: 80px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
@@ -65,18 +65,21 @@
                         <h4 style="color: var(--text-color-span);">Acerca de Nosotros</h4>
                         <h3 style="font-size: 1.5rem;">Su socio de Confianza en Gestión de Inventario</h3>
 
-                        <p>En [Nombre de la Empresa], nos dedicamos a revolucionar la forma en que las empresas gestionan su
-                            inventario. Con años de experiencia en el sector, entendemos los desafíos únicos que enfrentan
-                            las empresas al intentar mantener un control eficiente de sus existencias. Nuestro objetivo es
-                            proporcionar soluciones innovadoras y personalizadas que simplifiquen la gestión de inventario,
+                        <p style="padding-top: 40px;">En [Nombre de la Empresa], nos dedicamos a revolucionar la forma
+                            en que las empresas
+                            gestionan su
+                            inventario. Con años de experiencia en el sector, entendemos los desafíos únicos que
+                            enfrentan
+                            las empresas al intentar mantener un control eficiente de sus existencias. Nuestro objetivo
+                            es
+                            proporcionar soluciones innovadoras y personalizadas que simplifiquen la gestión de
+                            inventario,
                             mejoren la precisión y aumenten la rentabilidad.
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6">
-                    <div class="image-box-about">
-                        <img src="./views/about-us.jpg" alt="Acerca de Nosotros" class="img-fluid">
-                    </div>
+                    <img id="image" src="./views/about-us.jpg" alt="Acerca de Nosotros" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -84,7 +87,41 @@
     <!--fin de Acerca de Nosotros-->
 
     <!--formulario de login-->
-
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6" style="border-radius: 5px;">
+                    <form class="login-form">
+                        <div class="mb-3">
+                            <h3 id="login-title">Iniciar Sesión</h3>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required maxlength="40">
+                            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con
+                                nadie más.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required
+                                maxlength="15">
+                        </div>
+                        <div class="mb-3">
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                            <a href="#" style="float: right;">¿No tienes una cuenta? Regístrate</a>
+                        </div>
+                        <div class="mt-3" style="text-align: center; padding-top: 20px;">
+                            <button type="submit" class="btn btn-outline-primary">Iniciar Sesión</button>
+                        </div>
+                    </form>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
