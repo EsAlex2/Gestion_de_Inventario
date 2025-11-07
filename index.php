@@ -63,11 +63,28 @@
                 <div class="col-md-6 col-lg-6">
                     <div class="text-box-about">
                         <h4 style="color: var(--text-color-span);">Acerca de Nosotros</h4>
+                        <h3 style="font-size: 1.5rem;">Su socio de Confianza en Gestión de Inventario</h3>
+
+                        <p>En [Nombre de la Empresa], nos dedicamos a revolucionar la forma en que las empresas gestionan su
+                            inventario. Con años de experiencia en el sector, entendemos los desafíos únicos que enfrentan
+                            las empresas al intentar mantener un control eficiente de sus existencias. Nuestro objetivo es
+                            proporcionar soluciones innovadoras y personalizadas que simplifiquen la gestión de inventario,
+                            mejoren la precisión y aumenten la rentabilidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="image-box-about">
+                        <img src="/sistema/views/images/about-us.jpg" alt="Acerca de Nosotros" class="img-fluid"
+                            style="border-radius: 10px;">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--fin de Acerca de Nosotros-->
+
+    <!--formulario de login-->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
