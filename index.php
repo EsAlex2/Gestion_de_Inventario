@@ -25,10 +25,10 @@
                         <a class="nav-link" href="#about">Acerca de</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Colaboradores</a>
+                        <a class="nav-link" href="#colaboradores">Colaboradores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#footer">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
     <!--fin del banner de bienvenida-->
 
     <!--Acerca de Nosotros-->
-    <section id="about" class="about-us" style="margin-bottom: 80px;">
+    <section id="about" class="about-us">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
@@ -87,7 +87,7 @@
     <!--fin de Acerca de Nosotros-->
 
     <!--formulario de login-->
-    <section>
+    <section class="login">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6" style="border-radius: 5px;">
@@ -138,58 +138,51 @@
     <!--fin del formulario de login-->
 
     <!--colaboradores-->
-    <section>
-        <div id="colaboradores" class="container">
+    <section class="team">
+        <div class="container" style="margin: 50px;">
             <div class="row">
-                <div class="col-md-12 col-lg-12">
-                    <h3>Colaboradores</h3>
-                    <div id="carouselExampleCaptions" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div id="colaboradores" class="col-12 text-center" style="padding-bottom: 100px">
+                    <h3 style="margin-bottom: 40px;">Colaboradores</h3>
+                    <p id="text-colaboladores">Nuestro equipo son un grupo de estudiantes universitarios con habilidades...</p>
+                </div>
+                <div id="colaboradores_foto" class="col-6 col-md-3 text-center">
+                    <img src="./views/team1.png" alt="Colaborador 2" class="img-fluid colaborador-img">
+                    <p id="text-colaboladores">Alex J. Madrid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<br></p>
+                </div>
+                <div id="colaboradores_foto" class="col-6 col-md-3 text-center">
+                    <img src="./views/team2.png" alt="Colaborador 2" class="img-fluid colaborador-img">
+                    <p id="text-colaboladores">Alex J. Madrid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </div>
+                <div id="colaboradores_foto" class="col-6 col-md-3 text-center">
+                    <img src="./views/team3.png" alt="Colaborador 3" class="img-fluid colaborador-img">
+                    <p id="text-colaboladores">Alex J. Madrid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </div>
+                <div id="colaboradores_foto" class="col-6 col-md-3 text-center">
+                    <img src="./views/yteam1.jpg" alt="Colaborador 4" class="img-fluid colaborador-img">
+                    <p id="text-colaboladores">Alex J. Madrid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
                 </div>
             </div>
         </div>
     </section>
+    <!--fin para los colaboradores-->
+
+    <!--Footer-->
+    <section class="footer">
+        <div id="footer" class="contacto-footer">
+            <div class="contactos">
+                <h2>GesTec</h2>
+                <div class="icono-footer">
+                    <ion-icon name="navigate-circle-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

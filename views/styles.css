@@ -43,6 +43,11 @@ body {
 
 /* About Section */
 
+.about-us {
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
 .text-box-about {
   padding: 30px 0 0px 30px;
   margin: 10px;
@@ -56,63 +61,113 @@ body {
   height: auto;
   padding: 50px;
   margin-left: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* Login Form Styles */
+.login {
+  padding: 20px;
+}
+
 .login-form {
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    font-size: 0.9rem;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
 }
 
 .login-form:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
-    transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
 }
 
 #login-title {
-    text-align: center;
-    margin-bottom: 50px;
-    font-weight: bold;
-    color: var(--primary-color)
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: var(--primary-color)
 }
 
 
 /*Input field styles*/
 .form-label {
-    font-size: 1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .form-control {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 15px;
-    border: none;
-    border-bottom: 2px solid var(--primary-color);
-    background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  background-color: transparent;
 }
 
 .form-control:focus {
-    border-radius: 0%;
-    box-shadow: none;
-    outline: none;
+  border-radius: 0%;
+  box-shadow: none;
+  outline: none;
 }
 
 /** Servicios */
 #services {
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #services:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
-    transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.team {
+  padding-top: 50px;
+}
+
+#colaboradores_foto:hover {
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+#text-colaboladores {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/*footer*/
+
+.contacto-footer {
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../views/footer_bg.jpg");
+}
+
+.contactos {
+  margin: 80px;
+}
+
+.contactos>h2 {
+  text-align: start;
+  color: var(--secondary-color);
+
+}
+
+.icono-footer {
+  color: white;
+  padding: 8px;
+  margin: 1px;
+  border-radius: 5px;
 }
