@@ -15,7 +15,7 @@
     <!--barra de navegacion-->
     <nav class="navbar" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><ion-icon name="logo-html5"></ion-icon></a>
+            <h2 style="font-weight: bold;"><a class="navbar-brand" href="#">Ges<span style="color: var(--text-color-span)">Tec</span></a></h2>
             <div class="d-flex w-50 justify-content-center">
                 <ul class="nav nav-underline">
                     <li class="nav-item">
