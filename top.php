@@ -33,7 +33,6 @@
                 </ul>
             </div>
             <div class="d-flex">
-                <a class="btn btn-outline-light" style="margin-right: 10px;" href="registro_usuario.php" role="button">Registrarse</a>
                 <a class="btn btn-outline-light" href="#login-title" role="button">Iniciar Sesion</a>
             </div>
         </div>
