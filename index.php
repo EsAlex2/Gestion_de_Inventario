@@ -14,7 +14,7 @@
 <body>
     <!--barra de navegacion-->
     <nav class="navbar" data-bs-theme="dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#"><ion-icon name="logo-html5"></ion-icon></a>
             <div class="d-flex w-50 justify-content-center">
                 <ul class="nav nav-underline">
@@ -88,7 +88,7 @@
 
     <!--formulario de login-->
     <section class="login">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6" style="border-radius: 5px;">
                     <form class="login-form">
@@ -109,9 +109,9 @@
                         </div>
                         <div class="mb-3">
                             <a href="#">¿Olvidaste tu contraseña?</a>
-                            <a href="#" style="float: right;">¿No tienes una cuenta? Regístrate</a>
+                            <a href="#" style="float:right;">¿No tienes una cuenta? Regístrate</a>
                         </div>
-                        <div class="mt-3" style="text-align: center; padding-top: 45px; padding-bottom: 10px;">
+                        <div class="mt-5" style="text-align: center;">
                             <button type="submit" class="btn btn-outline-primary">Iniciar Sesión</button>
                         </div>
                     </form>
@@ -139,7 +139,7 @@
 
     <!--colaboradores-->
     <section class="team">
-        <div class="container" style="margin: 50px;">
+        <div class="container-fluid" style="margin: 50px;">
             <div class="row">
                 <div id="colaboradores" class="col-12 text-center" style="padding-bottom: 100px">
                     <h3 style="margin-bottom: 40px;">Colaboradores</h3>
@@ -172,7 +172,7 @@
 
     <!--Footer-->
     <section class="footer">
-        <div id="footer" class="contacto-footer">
+        <div id="footer" class="container-fluid">
             <div class="contactos">
                 <h2>GesTec</h2>
                 <div class="icono-footer">
