@@ -10,6 +10,7 @@ html {
   --primary-color: #0380d3;
   --secondary-color: #f0f0f0ff;
   --text-color-span: #ff8c00;
+  --text-warning: #ba0707;
 }
 
 body {
@@ -197,4 +198,36 @@ body {
   border: none;
   border-bottom: 2px solid var(--secondary-color);
   background-color: transparent;
+}
+
+/*****************************************************************************************************************************************************************************************************************************************************************/
+/*ESTILOS PARA EL FORMULARIO DE registro_usuario.php */
+.registro_usuario {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+  margin: 100px;
+  box-shadow: 0 0 10px rgba(1, 44, 84, 0.664);
+  font-size: 0.9rem;
+  border-radius: 10px;
+}
+
+#input {
+  padding: 30px 0 20px 0;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+#input:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: all 0.4s ease-in-out;
+}
+
+.input-registro {
+  width: 70%;
+  padding: 5px;
 }
