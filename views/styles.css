@@ -20,7 +20,6 @@ body {
 
 /* Navbar Styles */
 .navbar {
-
   background-color: var(--primary-color);
 }
 
@@ -119,7 +118,7 @@ body {
   padding: 14px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+}  
 
 #services:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -129,10 +128,14 @@ body {
 
 .team {
   padding-top: 50px;
+  display: flex;
+  align-items: center;
+    
 }
 
+
 #colaboradores_foto:hover {
-  padding: 15px;
+  padding: 15px;  
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
@@ -148,7 +151,7 @@ body {
 /*footer*/
 
 #footer {
-  height: 300px;
+  height: 350px;
   display: flex;
   background-size: cover;
   background-position: center;
@@ -157,18 +160,41 @@ body {
 }
 
 .contactos {
-  margin: 80px;
-}
-
-.contactos>h2 {
-  text-align: start;
-  color: var(--secondary-color);
-
-}
-
-.icono-footer {
+  margin: 30px;
   color: white;
-  padding: 8px;
-  margin: 1px;
-  border-radius: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactos-footer {
+  font-size: 0.9rem;
+}
+
+.menus {
+  list-style-type: none;
+}
+
+#link-menus {
+  text-decoration: none;
+  color: white;
+  text-align: start;
+}
+
+.form-footer {
+
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.label-footer {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.input-footer {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid var(--secondary-color);
+  background-color: transparent;
 }
