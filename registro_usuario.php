@@ -1,6 +1,7 @@
 <?php
 require_once('top.php');
 ?>
+
 <section>
     <div class="container-lg">
         <div class="row">
@@ -60,16 +61,14 @@ require_once('top.php');
                         <p>Debe llenar todos los campos</p>
                     </div>
                     <div id="input" class="mb-3">
-                        <input type="text" class="input-registro" required placeholder="Nombres" maxlength="45" style="margin-top: 20px;">
-                        <input type="text" class="input-registro" required placeholder="Apellidos" maxlength="45" style="margin-top: 20px;">
-                        <input type="email" class="input-registro" required placeholder="Correo Electronico" maxlength="30" style="margin-top: 20px;">
-                        <input type="text" class="input-registro" required placeholder="Telefono" maxlength="11" style="margin-top: 20px;">
-                        <input type="text" class="input-registro" required placeholder="Telefono de Emergencia" maxlength="11" style="margin-top: 20px;">
-                        <input type="password" class="input-registro" required maxlength="16" style="margin-top: 20px;" requeried placeholder="Contraseña">
-                    <div id="input" class="mb-3">
-                        <input type="date" required style="margin-top: 20px;" style="margin-top: 20px;">
-                    </div>
-                    <div class="button-registro">
+                        <input type="text" class="input-registro" name="nombres" required placeholder="Nombres y Apellidos" maxlength="45" style="margin-top: 20px;">
+                        <input type="text" class="input-registro" name="dni" required placeholder="DNI" maxlength="45" style="margin-top: 20px;">
+                        <input type="text" class="input-registro" name="empresa" required placeholder="Empresa" maxlength="45" style="margin-top: 20px;">
+                        <input type="email" class="input-registro" name="correo" required placeholder="Correo Electronico" maxlength="30" style="margin-top: 20px;">
+                        <input type="text" class="input-registro" name="username" required placeholder="Username" maxlength="30" style="margin-top: 20px;">
+                        <input type="text" class="input-registro" name="telefono" required placeholder="Telefono" maxlength="11" style="margin-top: 20px;">
+                        <input type="password" class="input-registro" name="pass" required maxlength="16" style="margin-top: 20px;" requeried placeholder="Contraseña">
+                    <div class="button-registro" style="margin-top: 50px;">
                         <button type="submit" class="btn btn-outline-primary" style="width: 20%;">Registrarse</button>
                         <button type="button" class="btn btn-outline-secondary" style="width: 20%;" onclick="window.location='registro_usuario.php'">Cancelar</button>
                     </div>
